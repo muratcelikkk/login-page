@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arimo", sans-serif;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
+  background-position: center center;
+  background-size: cover;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+form {
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+  padding: 20px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 300px;
+  border-radius: 20px;
+}
+label {
+  display: inline-block;
+  text-align: left;
+  width: 110px;
+  height: 40px;
+}
+h1 {
+  margin: 40px;
+
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+input[type="submit"] {
+  background-color: pink;
+  font-weight: 700;
+  width: 100px;
+}
+input[type="reset"] {
+  background-color: pink;
+  font-weight: 700;
+  width: 100px;
+}
